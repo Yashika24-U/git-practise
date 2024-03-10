@@ -1,0 +1,4 @@
+It seems like you're attempting to implement a solution for recovering a binary search tree that is almost correct. However, there are a few mistakes in your code:
+
+In the dfs function, you're traversing the left subtree twice. You should traverse the left subtree and then the right subtree.
+In the recover function, you should pass i by reference, or else the changes to i won't reflect in the recursive calls.
